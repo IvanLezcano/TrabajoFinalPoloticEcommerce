@@ -1,0 +1,227 @@
+
+
+
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.App{
+    background: url(../img/fondo.jpg); 
+    background-size: cover;
+
+}
+
+.header header img{
+    display: block;
+    width: 110px;
+    border-radius: 50%;
+    border: 2px gray solid;
+    /* margin: auto;
+    margin-top: 15px !important;
+    margin-bottom: 30px !important; */
+    margin: auto ;
+}
+
+.header header li{
+    width: 100%;
+    background-color: grey;
+    margin-bottom:2px ;
+    padding: 5px 0;
+    text-align: center;
+
+    
+}
+.header header li:last-child{
+    margin-bottom: none;
+}
+
+.header header a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+
+
+.header header img{
+    display: block;
+    width: 110px;
+    border-radius: 50%;
+    border: 2px gray solid;
+    /* margin: auto;
+    margin-top: 15px !important;
+    margin-bottom: 30px !important; */
+    margin: auto ;
+}
+
+.menu2 header li{
+    width: 100%;
+    background-color: grey;
+    margin-bottom:2px ;
+    padding: 5px 0;
+    text-align: center;
+
+    
+}
+.menu2 header li:last-child{
+    margin-bottom: none;
+}
+
+.menu2 header a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.header .menumobile{
+    display: block;
+    margin: 30px auto;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+.search .busqueda{
+    width: 80%;
+    height: 40px;
+    border-radius: 9px ;
+    border: blue 1px solid;
+    margin-left: 2px;
+    margin-top: 10px !important;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.search .busqueda{
+    width: 70%;
+    height: 35px;
+    border-radius: 9px ;
+    border: blue 1px solid;
+    margin-top: 20px !important;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.search .lupa{
+margin: 0 !important;
+margin-top:20px !important;
+border: none;
+border-radius: 20px 20px 20px 20px;
+width: 10%;
+height: 30px;
+
+}
+
+
+@media (min-width: 768px){
+   .header .menumobile{
+        display: none;
+    }
+    .header header{
+        display: flex !important;
+        flex-direction: row !important;
+
+    }
+    .header header img{
+        display: block;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px gray solid;
+       
+        margin: 0 !important ;
+    }
+   
+    .header header nav{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        background-color: grey;
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+    .header header ul{
+        display: flex;
+        flex-direction: row !important;
+        margin-top: 0px;
+        width: 100%;
+
+
+    }
+    .header header li{
+        border-left: 3px solid green;
+        border-right: 3px solid green;
+
+
+    }
+  
+    .menu2 header ul{
+        width: 100%;
+        background-color: grey;
+        margin-bottom:10px ;
+        margin-top: 10px;
+        padding: 5px 0;
+        text-align: center;
+        display: flex;
+        flex-direction: row;    
+       
+
+        
+    }
+    .menu2 header li{
+        width: 100%;
+        background-color: grey;
+        margin-bottom:2px ;
+        padding: 5px 0;
+        text-align: center;
+        border-right: 3px solid green;
+    
+        
+    }
+    .menu2 header li:last-child{
+        margin-bottom: none;
+        border: none;
+    }
+    
+    .menu2 header a{
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    li{
+        list-style-type: none;
+    }
+    .search .busqueda{
+        width: 70%;
+        height: 40px;
+        border-radius: 9px ;
+        border: blue 1px solid;
+        margin-top: 20px !important;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: bolder;
+       
+    }
+    .search .lupa{
+    margin: 0 !important;
+    margin-top:20px !important;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    width: 10%;
+    height: 40px;
+
+    }
+
+}
+
